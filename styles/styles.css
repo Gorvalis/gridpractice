@@ -1,4 +1,20 @@
 body {
-    background-size: 40px 40px;
-    background-image: linear-gradient(to right, grey 1px, transparent 1px),linear-gradient(to bottom, grey 1px, transparent 1px);
+    /*background-size: 100vh 100vw;
+    background-image: linear-gradient(to right, grey 1%, transparent 1%, grey 1%, transparent 1%, grey 1%, transparent 1%, grey 1%, transparent 1%)*/
+    background-size:100vh 100vw;
+    background:repeating-linear-gradient(
+        to right,
+    grey 0%,
+        transparent 0.5%,
+        transparent 9.5%,
+        grey 10%,
+        transparent 11%
+        ),repeating-linear-gradient(
+            to bottom,
+        grey 0%,
+            transparent 0.5%,
+            transparent 9.5%,
+            grey 10%,
+            transparent 11%
+            )
   }
