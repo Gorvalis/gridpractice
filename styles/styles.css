@@ -7,14 +7,13 @@ body {
     grey 0%,
         transparent 0.5%,
         transparent 9.5%,
-        grey 10%,
-        transparent 11%
-        ),repeating-linear-gradient(
+        grey 10%
+        ),
+        repeating-linear-gradient(
             to bottom,
         grey 0%,
-            transparent 0.5%,
-            transparent 9.5%,
-            grey 10%,
-            transparent 11%
+            transparent 0.5vh,
+            transparent 95vh,
+            grey 100vh
             )
   }
